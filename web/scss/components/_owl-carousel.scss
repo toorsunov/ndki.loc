@@ -1,0 +1,108 @@
+// Owl carousel
+
+.slider-style-1 {
+    position: relative;
+
+    .owl-nav {
+        display: flex;
+        float: right;
+        position: relative;
+        z-index: 1;
+        margin: -70px 15px 0 0;
+
+        @include media-breakpoint-down(md) {
+            margin-top: -70px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            outline: none;
+            color: #FFF;
+            font-size: 16px;
+            border: 1px solid #FFF;
+            background-color: transparent;
+            @include transition();
+
+            @include media-breakpoint-down(md) {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+
+            &:hover {
+                color: $warning;
+                border-color: $warning;
+            }
+
+            &.owl-prev {
+                margin-right: 10px;
+
+                &:after {
+                    content: "\e905";
+                    font-family: 'icomoon';
+                }
+            }
+        
+            &.owl-next {
+        
+                &:after {
+                    content: "\e906";
+                    font-family: 'icomoon';
+                }
+            }
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 37px;
+        z-index: 2;
+        left: 50%;
+        
+        @include media-breakpoint-up(md) {
+            @include translateX(-50%);
+        }
+
+        @include media-breakpoint-down(sm) {
+            left: 0;
+            margin-left: 30px;
+        }
+
+        .owl-dot {
+            width: 20px;
+            height: 20px;
+            padding: 4px;
+            margin: 0 4px;
+            border: 1px solid #FFF;
+            outline: none;
+            @include radius(50%);
+            
+            span {
+                display: block;
+                opacity: 0;
+                width: 12px;
+                height: 12px;
+                margin: 2px;
+                background-color: $warning;
+                @include radius(50%);
+            }
+
+            &.active {
+                border-width: 2px;
+                border-color: $warning;
+
+                span {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

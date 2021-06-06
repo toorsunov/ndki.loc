@@ -1,0 +1,17 @@
+// Modals
+
+.modal-style-1 {
+
+    .close {
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        color: #FFF;
+        background-color: $danger;
+        opacity: 1;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,69 @@
+// Footer
+
+.footer {
+    padding: 40px 0;
+    background-color: $dark-blue;
+    overflow: hidden;
+
+    &__row {
+        margin-left: -37px;
+        margin-right: -37px;
+
+        & > [class^="col-"] {
+            padding-left: 37px;
+            padding-right: 37px;
+        }
+    }
+
+    h5 {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    ul:not(CLASS) {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            border-bottom: 1px solid rgba(#FFF, 0.2);
+            
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 9px 0;
+                color: #FFF;
+                font-size: 14px;
+                @include transition();
+
+                &:after {
+                    content: "\e906";
+                    font-family: 'icomoon';
+                    font-size: 10px;
+                    color: rgba(#FFF, 0.2);
+                    @include transition();
+                }
+
+                &:hover, &:focus {
+                    color: $warning;
+                    text-decoration: none;
+
+                    &:after {
+                        color: $warning;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-icony {
+    margin: 20px 0 35px;
+
+    .icony {
+        margin-bottom: 15px;
+    }
+}

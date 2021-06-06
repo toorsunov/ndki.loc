@@ -1,0 +1,45 @@
+// Info in Numbers
+
+.section-info-numbers {
+    padding: 25px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('#{$path-images}/info-numbers-bg.jpg');
+
+    @include media-breakpoint-down(md) {
+        padding-bottom: 0;
+    }
+}
+
+.info-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #FFF;
+
+    strong {
+        font-size: 60px;
+        line-height: 1.34;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 40px;
+        }
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        min-height: 48px;
+        font-size: 20px;
+        line-height: 1.2;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+// Base - Main
+
+.section {
+    padding: 40px 0;
+}
+
+.row-menu-slider {
+
+    .col-left {
+        flex: 0 0 37.7%;
+        max-width: 37.7%;
+
+        @include media-breakpoint-down(md) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    .col-right {
+        flex: 0 0 62.3%;
+        max-width: 62.3%;
+
+        @include media-breakpoint-down(md) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+// Row min
+.row-min {
+    margin-left: -12px;
+    margin-right: -12px;
+
+    .col-row-min {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

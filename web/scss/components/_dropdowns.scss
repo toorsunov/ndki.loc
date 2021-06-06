@@ -1,0 +1,17 @@
+// Dropdowns
+
+.dropdown {
+
+    .dropdown-toggle {
+        
+        &:after {
+            content: "\e904";
+            font-family: 'icomoon';
+            font-size: 70%;
+            line-height: 1;
+            vertical-align: 0;
+            border: 0;
+            margin: 0 0 0 8px;
+        }
+    }
+}

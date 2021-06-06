@@ -1,0 +1,35 @@
+// Configurations
+@import 'config/variables';
+@import 'config/fonts';
+@import 'config/crossbrowser';
+@import 'config/bootstrap';
+@import 'config/helpers';
+
+// Base
+@import 'base/base';
+@import 'base/header';
+@import 'base/main';
+@import 'base/footer';
+
+// Components
+@import 'components/buttons';
+@import 'components/dropdowns';
+@import 'components/modals';
+@import 'components/others';
+@import 'components/titles';
+@import 'components/owl-carousel';
+@import 'components/box-shadows';
+
+// Sections
+@import 'sections/main-slider';
+@import 'sections/category-menu';
+@import 'sections/news';
+@import 'sections/videos';
+@import 'sections/recommendations';
+@import 'sections/faculty-menu';
+@import 'sections/info-numbers';
+
+// Plugins
+@import 'plugins/icons/icons';
+@import 'plugins/owl-carousel/owl.carousel.scss';
+

@@ -1,0 +1,30 @@
+// Other blocks
+
+.icony {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        font-size: 15px;
+        border: 1px solid #FFF;
+        @include transition();
+    }
+
+    &:hover, &:focus {
+        color: #FFF;
+        text-decoration: none;
+
+        .icon {
+            color: $primary;
+            background-color: #FFF;
+        }
+    }
+}

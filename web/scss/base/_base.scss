@@ -1,0 +1,29 @@
+// Base - Base
+
+::-moz-selection {
+    color: #FFF;
+    background-color: $primary;
+}
+
+::selection {
+    color: #FFF;
+    background-color: $primary;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+
+    &-track {
+        background: rgba(#000, 0.05);
+    }
+
+    &-thumb {
+        background: rgba(#000, 0.2);
+
+        &:hover {
+            background: rgba(#000, 0.4);
+        }
+    }
+}

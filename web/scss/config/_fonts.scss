@@ -1,0 +1,22 @@
+// Fonts
+
+// Open Sans
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), 
+        url('#{$path-fonts}/Opensans/opensans.woff2') format('woff2'), 
+        url('#{$path-fonts}/Opensans/opensans.woff') format('woff'), 
+        url('#{$path-fonts}/Opensans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), 
+        url('#{$path-fonts}/Opensans/opensanssemibold.woff2') format('woff2'), 
+        url('#{$path-fonts}/Opensans/opensanssemibold.woff') format('woff'), 
+        url('#{$path-fonts}/Opensans/opensanssemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

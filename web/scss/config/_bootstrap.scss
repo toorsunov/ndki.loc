@@ -1,0 +1,123 @@
+// Theming - Bootstrap (Theming)
+
+// Colors
+$theme-colors: (
+	"primary": 							$primary,
+	"light": 							$light,
+	"info": 							$info,
+	"warning": 							$warning,
+	"white": 							$white,
+	"black": 							$black,
+);
+
+$font-family-base:            			'Open Sans';
+$font-size-base:              			0.9375rem;
+// $font-size-lg:                $font-size-base * 1.25 !default;
+// $font-size-sm:                $font-size-base * .875 !default;
+
+// Container max width
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px
+);
+
+// Spacing
+$spacer: 5px;
+$spacers: ();
+$spacers: map-merge(
+	(
+		0:  0,
+		1:  ($spacer * 1),
+		2:  ($spacer * 2),
+		3:  ($spacer * 3),
+		4:  ($spacer * 4),
+		5:  ($spacer * 5),
+		6:  ($spacer * 6),
+		7:  ($spacer * 7),
+		8:  ($spacer * 8),
+		9:  ($spacer * 9),
+		10: ($spacer * 10),
+		11: ($spacer * 11),
+		12: ($spacer * 12),
+		13: ($spacer * 13),
+		14: ($spacer * 14),
+		15: ($spacer * 15),
+	),
+	$spacers
+);
+
+// Buttons
+$btn-padding-y:               9px;
+$btn-padding-x:               28px;
+$btn-font-size:               14px;
+$btn-line-height:             17px;
+
+$btn-padding-y-sm:            9px;
+$btn-padding-x-sm:            28px;
+$btn-font-size-sm:            14px;
+$btn-line-height-sm:          15px;
+
+$btn-padding-y-lg:            14px;
+$btn-padding-x-lg:            32px;
+$btn-font-size-lg:            16px;
+$btn-line-height-lg:          20px;
+
+$btn-border-width:            1px;
+
+$btn-border-radius:           0;
+$btn-border-radius-lg:        0;
+$btn-border-radius-sm:        0;
+
+// Dropdowns
+$dropdown-border-radius:      0;
+$dropdown-font-size:          14px;
+
+// Forms
+$input-btn-padding-y:         0.4845rem;
+$input-btn-padding-x:         0.625rem;
+$input-bg:                    #FFF;
+$input-border-radius:         0;
+$input-border-width:          1px;
+$input-placeholder-color:     #797B86;
+$input-plaintext-color:       $primary;
+$form-group-margin-bottom:    1.5rem;
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/code";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/tables";
+@import "../../../node_modules/bootstrap/scss/forms";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/dropdown";
+@import "../../../node_modules/bootstrap/scss/button-group";
+@import "../../../node_modules/bootstrap/scss/input-group";
+@import "../../../node_modules/bootstrap/scss/custom-forms";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/card";
+@import "../../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../../node_modules/bootstrap/scss/pagination";
+@import "../../../node_modules/bootstrap/scss/badge";
+@import "../../../node_modules/bootstrap/scss/jumbotron";
+@import "../../../node_modules/bootstrap/scss/alert";
+@import "../../../node_modules/bootstrap/scss/progress";
+@import "../../../node_modules/bootstrap/scss/media";
+@import "../../../node_modules/bootstrap/scss/list-group";
+@import "../../../node_modules/bootstrap/scss/close";
+@import "../../../node_modules/bootstrap/scss/toasts";
+@import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/tooltip";
+@import "../../../node_modules/bootstrap/scss/popover";
+@import "../../../node_modules/bootstrap/scss/carousel";
+@import "../../../node_modules/bootstrap/scss/spinners";
+@import "../../../node_modules/bootstrap/scss/utilities";
+@import "../../../node_modules/bootstrap/scss/print";
