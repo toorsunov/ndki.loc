@@ -287,10 +287,11 @@ AppAsset::register($this);
                         <li class="menu-item-has-dropdown">
                             <a href="#">Новости</a>
                             <ul>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Объявление</a></li>
+                                <li><a href="#">Тендеры</a></li>
+                                <li><a href="#">Фотогалерея</a></li>
+                                <li><a href="#">Видеогалерея</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-dropdown">
