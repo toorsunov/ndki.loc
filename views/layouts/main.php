@@ -36,7 +36,7 @@ AppAsset::register($this);
                 <div class="header__top-inner-right">
                     <div class="dropdown symbols">
                         <button class="btn btn-outline-white btn-sm dropdown-toggle" type="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="images/symbols/symbol.svg" alt="">
+                            <img src="/images/symbols/symbol.svg" alt="">
                             Гос. символы
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdown-1">
@@ -58,16 +58,16 @@ AppAsset::register($this);
                     </div>
                     <div class="dropdown languages">
                         <button class="btn btn-outline-white btn-sm dropdown-toggle" type="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="images/languages/russian.svg" alt="">
+                            <img src="/images/languages/russian.svg" alt="">
                             Русский
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdown-1">
                             <a class="dropdown-item" href="#">
-                                <img src="images/languages/uzbek.svg" alt="">
+                                <img src="/images/languages/uzbek.svg" alt="">
                                 O'zbek
                             </a>
                             <a class="dropdown-item" href="#">
-                                <img src="images/languages/english.svg" alt="">
+                                <img src="/images/languages/english.svg" alt="">
                                 English
                             </a>
                         </div>
@@ -81,7 +81,7 @@ AppAsset::register($this);
             <div class="header__middle-inner">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/assets/logo.svg" alt="Навоийский государственный горный институт">
+                        <img src="/images/assets/logo.svg" alt="Навоийский государственный горный институт">
                         <span>Навоийский государственный <br> горный институт</span>
                     </a>
                 </div>
@@ -114,13 +114,13 @@ AppAsset::register($this);
                         </div>
                         <div class="d-flex mobile-languages">
                             <a href="javascript:;" class="btn">
-                                <img src="images/languages/uzbek.svg" alt="">
+                                <img src="/images/languages/uzbek.svg" alt="">
                             </a>
                             <a href="javascript:;" class="btn">
-                                <img src="images/languages/russian.svg" alt="">
+                                <img src="/images/languages/russian.svg" alt="">
                             </a>
                             <a href="javascript:;" class="btn">
-                                <img src="images/languages/english.svg" alt="">
+                                <img src="/images/languages/english.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -242,10 +242,11 @@ AppAsset::register($this);
                         <li class="menu-item-has-dropdown">
                             <a href="#">Институт</a>
                             <ul>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
-                                <li><a href="#">Menu dropdown item</a></li>
+                                <li><a href="#">Приветствие ректора</a></li>
+                                <li><a href="#">История института</a></li>
+                                <li><a href="#">Устав института</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Общая информация</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-dropdown active">
@@ -332,6 +333,7 @@ AppAsset::register($this);
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="slider-main__item" style="background-image: url('images/slider/slider-1.jpg');">
                                     <div class="overlay"></div>
@@ -365,6 +367,7 @@ AppAsset::register($this);
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="container">
                             <div class="owl-nav" id="slider_main_nav"></div>
@@ -374,13 +377,13 @@ AppAsset::register($this);
                 <div class="col order-lg-1 col-left">
                     <div class="category-menu box-shadow-1">
                         <ul>
-                            <li><a href="#"><img src="images/category-menu/1.svg" alt=""><span>Институт</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/2.svg" alt=""><span>Образование</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/3.svg" alt=""><span>Наука</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/4.svg" alt=""><span>Международное сотрудничество</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/5.svg" alt=""><span>Институт повышения <br> квалификации и переподготовки</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/6.svg" alt=""><span>Студенческая жизнь</span></a></li>
-                            <li><a href="#"><img src="images/category-menu/7.svg" alt=""><span>Воспитательная работа</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/1.svg" alt=""><span>Институт</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/2.svg" alt=""><span>Образование</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/3.svg" alt=""><span>Наука</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/4.svg" alt=""><span>Международное сотрудничество</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/5.svg" alt=""><span>Институт повышения <br> квалификации и переподготовки</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/6.svg" alt=""><span>Студенческая жизнь</span></a></li>
+                            <li><a href="#"><img src="/images/category-menu/7.svg" alt=""><span>Воспитательная работа</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -402,7 +405,7 @@ AppAsset::register($this);
                         <div class="col-sm-6 col-row-min">
                             <div class="news">
                                 <a href="#" class="news__image">
-                                    <img src="images/news/1.jpg" alt="">
+                                    <img src="/images/news/1.jpg" alt="">
                                 </a>
                                 <div class="news__caption">
                                     <a href="#">Совместная образовательная программа Навоийского государственного горного института</a>
@@ -420,7 +423,7 @@ AppAsset::register($this);
                         <div class="col-sm-6 col-row-min">
                             <div class="news">
                                 <a href="#" class="news__image">
-                                    <img src="images/news/2.jpg" alt="">
+                                    <img src="/images/news/2.jpg" alt="">
                                 </a>
                                 <div class="news__caption">
                                     <a href="#">Постановление Президента Республики Узбекистан PQ-4749</a>
@@ -438,7 +441,7 @@ AppAsset::register($this);
                         <div class="col-sm-6 col-row-min">
                             <div class="news">
                                 <a href="#" class="news__image">
-                                    <img src="images/news/3.jpg" alt="">
+                                    <img src="/images/news/3.jpg" alt="">
                                 </a>
                                 <div class="news__caption">
                                     <a href="#">Электронное учебное пособие авторов НГГИ заняло призовое</a>
@@ -456,7 +459,7 @@ AppAsset::register($this);
                         <div class="col-sm-6 col-row-min">
                             <div class="news">
                                 <a href="#" class="news__image">
-                                    <img src="images/news/4.jpg" alt="">
+                                    <img src="/images/news/4.jpg" alt="">
                                 </a>
                                 <div class="news__caption">
                                     <a href="#">Молодой ученый НГГИ стала Женщиной года!</a>
@@ -559,7 +562,7 @@ AppAsset::register($this);
                 <div class="col-md-6">
                     <a href="#" class="video" data-toggle="modal" data-target="#youtubeVideo">
                         <i class="icon icon-play"></i>
-                        <img src="images/video-images/1.jpg" alt="">
+                        <img src="/images/video-images/1.jpg" alt="">
                         <div class="video__caption">
                             <p>Навоий давлат кончилик институти устоз ва мураббийларни байрам билан табриклайди</p>
                         </div>
@@ -568,7 +571,7 @@ AppAsset::register($this);
                 <div class="col-md-6">
                     <a href="#" class="video" data-toggle="modal" data-target="#youtubeVideo">
                         <i class="icon icon-play"></i>
-                        <img src="images/video-images/2.jpg" alt="">
+                        <img src="/images/video-images/2.jpg" alt="">
                         <div class="video__caption">
                             <p>Навоий давлат кончилик институти Нукус филиали директори Ф.Худойбердиевнинг интервьюси</p>
                         </div>
@@ -577,7 +580,7 @@ AppAsset::register($this);
                 <div class="col-md-6">
                     <a href="#" class="video" data-toggle="modal" data-target="#youtubeVideo">
                         <i class="icon icon-play"></i>
-                        <img src="images/video-images/3.jpg" alt="">
+                        <img src="/images/video-images/3.jpg" alt="">
                         <div class="video__caption">
                             <p>Давлат тест марказининг расмий веб сайти орқали рўйхатдан ўтиш бўйича батафсил видеоқўлланма</p>
                         </div>
@@ -586,7 +589,7 @@ AppAsset::register($this);
                 <div class="col-md-6">
                     <a href="#" class="video" data-toggle="modal" data-target="#youtubeVideo">
                         <i class="icon icon-play"></i>
-                        <img src="images/video-images/4.jpg" alt="">
+                        <img src="/images/video-images/4.jpg" alt="">
                         <div class="video__caption">
                             <p>Янги Навоий Давлат Кончилик Институти</p>
                         </div>
@@ -607,55 +610,55 @@ AppAsset::register($this);
                     <div class="row row-min">
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/1.svg" alt="">
+                                <img src="/images/recommendations/1.svg" alt="">
                                 <div><span>Приём 2021</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/2.svg" alt="">
+                                <img src="/images/recommendations/2.svg" alt="">
                                 <div><span>Прямое обращение к ректору НГГИ</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/3.svg" alt="">
+                                <img src="/images/recommendations/3.svg" alt="">
                                 <div><span>Наука 2020</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/4.svg" alt="">
+                                <img src="/images/recommendations/4.svg" alt="">
                                 <div><span>Интерактивные услуги</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/5.svg" alt="">
+                                <img src="/images/recommendations/5.svg" alt="">
                                 <div><span>Онлайн библиотека</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/6.svg" alt="">
+                                <img src="/images/recommendations/6.svg" alt="">
                                 <div><span>Указы</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/7.svg" alt="">
+                                <img src="/images/recommendations/7.svg" alt="">
                                 <div><span>Моя идея</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/8.svg" alt="">
+                                <img src="/images/recommendations/8.svg" alt="">
                                 <div><span>Виртуальная приемная</span></div>
                             </a>
                         </div>
                         <div class="col-6 col-md-4 col-row-min">
                             <a href="#" class="recommendation">
-                                <img src="images/recommendations/9.svg" alt="">
+                                <img src="/images/recommendations/9.svg" alt="">
                                 <div><span>Scopus</span></div>
                             </a>
                         </div>
@@ -775,10 +778,10 @@ AppAsset::register($this);
     </div>
 </div>
 
-<script src="js/jquery.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js"></script> -->
 <?php $this->endBody() ?>
 </body>
 </html>
