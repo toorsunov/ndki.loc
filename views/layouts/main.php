@@ -312,7 +312,7 @@ AppAsset::register($this);
     </div>
 </header>
 
-<?= $content ?>
+    <?= $content ?>
 
 <!-- Footer -->
 <footer class="footer">
