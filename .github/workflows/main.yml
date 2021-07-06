@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: Copy all files to remote
+      - name: Copy all files to remote server
         uses: ./
         with:
           local: .
