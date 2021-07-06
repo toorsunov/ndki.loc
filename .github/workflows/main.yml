@@ -20,5 +20,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
           privateKey: ${{ secrets.PRIVATE_KEY }}
-	    	  passphrase: ${{ secrets.PASS_PHRASE }}
+          passphrase: ${{ secrets.PASS_PHRASE }}
           dotfiles: true
