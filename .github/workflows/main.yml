@@ -1,25 +1,24 @@
-name: scp copy folder to remote via SSH
+name: MasterCI
 
 on:
-  push
+  push:
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      CI: true
-      LOCAL: test
+    name: Push
+
     steps:
-      - name: checkout
-        uses: actions/checkout@master
-      - name: Copy all files to remote server
-        uses: ./
+      - uses: actions/checkout@master
+      
+      - name: Push
+        uses: nogsantos/scp-deploy@master
         with:
-          local: ./
-          remote: ndki.loc/
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          privateKey: ${{ secrets.PRIVATEKEY }}
-          passphrase: ${{ secrets.PASSPHRASE }}
-          port: ${{ secrets.PORT }}
-          dotfiles: true
+          src: ./*
+          host: ${{ secrets.SSH_HOST }}
+          remote: ${{ secrets.SSH_DIR }}
+          port: ${{ secrets.SSH_PORT }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
