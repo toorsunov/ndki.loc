@@ -1,0 +1,24 @@
+name: MasterCI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Push
+
+    steps:
+      - uses: actions/checkout@master
+      
+      - name: Push
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./*
+          host: ${{ secrets.SSH_HOST }}
+          remote: ${{ secrets.SSH_DIR }}
+          port: ${{ secrets.SSH_PORT }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
