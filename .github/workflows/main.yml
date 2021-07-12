@@ -19,7 +19,7 @@ jobs:
           remote: ndki.loc
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
-          privateKey: ${{ secrets.PRIVATE_KEY }}
+          privateKey: ${{ secrets.PRIVATEKEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           port: ${{ secrets.PORT }}
           dotfiles: true
