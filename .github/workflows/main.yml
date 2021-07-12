@@ -15,10 +15,10 @@ jobs:
       - name: Copy all files to remote server
         uses: ./
         with:
-          local: .
-          remote: ndki.loc
+          local: ./
+          remote: ndki.loc/
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.SSH_USER }}
+          username: ${{ secrets.USER }}
           privateKey: ${{ secrets.PRIVATEKEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           port: ${{ secrets.PORT }}
