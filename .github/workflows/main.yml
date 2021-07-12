@@ -11,7 +11,7 @@ jobs:
       LOCAL: test
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
       - name: Copy all files to remote server
         uses: ./
         with:
